@@ -22,14 +22,14 @@ A beautiful, interactive animation that brings the phrase "I Love You" to life w
 
 ### Live Demo
 
-**Experience the animation live:** [I Love You Animation Demo](https://kawser420.github.io/I-Love-You-Animation/)
+**Experience the animation live:** [I Love You Animation Demo](https://go-kawser.github.io/I-Love-You-Animation/)
 
 ### Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Kawser420/I-Love-You-Animation.git
+   git clone https://github.com/go-kawser/I-Love-You-Animation.git
    ```
 
 2. **Navigate to the project directory:**
@@ -51,20 +51,18 @@ A beautiful, interactive animation that brings the phrase "I Love You" to life w
 - **Change colors in `love.css`:**
 
   ```css
-  /* Modify these variables */
   .lttr {
-    fill: #763c8c; /* Change letter color */
+    fill: #763c8c;
   }
   .sound {
-    color: #763c8c; /* Change sound toggle color */
+    color: #763c8c;
   }
   ```
 
 - **Adjust animation timing in `love.js`:**
   ```javascript
-  // Modify animation duration
-  const move = 1000; // Duration of movement animations
-  const boom = 200; // Duration of burst animations
+  const move = 1000;
+  const boom = 200;
   ```
 
 #### License
@@ -89,4 +87,5 @@ A beautiful, interactive animation that brings the phrase "I Love You" to life w
 
 ---
 
-**Made with Love by: [Kawser420](https://github.com/Kawser420)**
+**Made with Love by: [go-kawser](https://github.com/go-kawser)**
+**Email:** abu.kayser.official@gmail.com

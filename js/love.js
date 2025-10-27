@@ -1,4 +1,5 @@
-// ALL JAVASCRIPT CODE HERE
+// ALL JAVASCRIPT CODE HERE:
+// ---------------------------------------------->
 const qs = document.querySelector.bind(document);
 const easingHeart = mojs.easing.path(
   "M0,100C2.9,86.7,33.6-7.3,46-7.3s15.2,22.7,26,22.7S89,0,100,0"
@@ -158,7 +159,7 @@ const crtLoveTl = () => {
         x: { to: 52 + 54 + 60 },
       })
       .then({
-        duration: 150, // 3550
+        duration: 150,
         easing,
         x: { to: 52 + 54 + 60 + 10 },
       })
@@ -200,8 +201,8 @@ const crtLoveTl = () => {
         easing: easingOut,
       }),
 
+    // [I] LOVE YOU
     new mojs.Html({
-      // [I] LOVE YOU
       ...opts,
       el: el.i,
       x: { 0: 34 },
@@ -227,36 +228,36 @@ const crtLoveTl = () => {
         x: { to: 34 + 19 + 40 + 30 + 30 },
       }),
 
+    // I [L]OVE YOU
     new mojs.Html({
-      // I [L]OVE YOU
       ...opts,
       el: el.l,
       x: { 0: 15 },
     }),
 
+    // I L[O]VE YOU
     new mojs.Html({
-      // I L[O]VE YOU
       ...opts,
       el: el.o,
       x: { 0: 11 },
     }),
 
+    // I LO[V]E YOU
     new mojs.Html({
-      // I LO[V]E YOU
       ...opts,
       el: el.v,
       x: { 0: 3 },
     }),
 
+    // I LOV[E] YOU
     new mojs.Html({
-      // I LOV[E] YOU
       ...opts,
       el: el.e,
       x: { 0: -3 },
     }),
 
+    // I LOVE [Y]OU
     new mojs.Html({
-      // I LOVE [Y]OU
       ...opts,
       el: el.y,
       x: { 0: -20 },
@@ -272,8 +273,8 @@ const crtLoveTl = () => {
         x: { to: -20 - 33 - 24 },
       }),
 
+    // I LOVE Y[O]U
     new mojs.Html({
-      // I LOVE Y[O]U
       ...opts,
       el: el.o2,
       x: { 0: -27 },
@@ -289,8 +290,8 @@ const crtLoveTl = () => {
         x: { to: -27 - 27 - 30 },
       }),
 
+    // I LOVE YO[U]
     new mojs.Html({
-      // I LOVE YO[U]
       ...opts,
       el: el.u,
       x: { 0: -32 },
@@ -364,12 +365,12 @@ const crtLoveTl = () => {
         easing: easingOut,
       })
       .then({
-        duration: 125, // 3725
+        duration: 125,
         scale: { to: 0.85 },
         easing: easingOut,
       })
       .then({
-        duration: 125, // 3850
+        duration: 125,
       })
       .then({
         duration: 350,
